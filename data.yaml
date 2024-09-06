@@ -1,0 +1,13 @@
+train: /Users/johnson/Desktop/Joh/Machine_Learning/ML_Yolov8/expression/data/train/images
+val: /Users/johnson/Desktop/Joh/Machine_Learning/ML_Yolov8/expression/data/valid/images
+test: /Users/johnson/Desktop/Joh/Machine_Learning/ML_Yolov8/expression/data/test/images
+
+nc: 6
+names: ['anger', 'fear', 'happy', 'neutral', 'sad', 'surprise']
+
+roboflow:
+  workspace: workshop-yg2yt
+  project: expression-abyan
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/workshop-yg2yt/expression-abyan/dataset/1
