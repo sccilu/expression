@@ -1,6 +1,6 @@
-train: ../expression/data/train/images
-val: ../expression/data/valid/images
-test: ../expression/data/test/images
+train: ../data/train/images
+val: ../data/valid/images
+test: ../data/test/images
 
 nc: 6
 names: ['anger', 'fear', 'happy', 'neutral', 'sad', 'surprise']
