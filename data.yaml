@@ -1,6 +1,6 @@
-train: /Users/johnson/Desktop/Joh/Machine_Learning/ML_Yolov8/expression/data/train/images
-val: /Users/johnson/Desktop/Joh/Machine_Learning/ML_Yolov8/expression/data/valid/images
-test: /Users/johnson/Desktop/Joh/Machine_Learning/ML_Yolov8/expression/data/test/images
+train: ../expression/data/train/images
+val: ../expression/data/valid/images
+test: ../expression/data/test/images
 
 nc: 6
 names: ['anger', 'fear', 'happy', 'neutral', 'sad', 'surprise']
