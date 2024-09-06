@@ -32,7 +32,7 @@ def predict(image_dir, model, device, conf_thres=0.25, iou_thres=0.45):
     return results
 
 if __name__ == "__main__":
-    weights = "runs/detect/train6/weights/best.pt"
+    weights = "runs/detect/train/weights/best.pt"
     image_dir = "images"
     model, device = load_model(weights)
     results = predict(image_dir, model, device)
