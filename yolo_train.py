@@ -11,8 +11,8 @@ def train_model():
         data='data.yaml',
         epochs=10,
         imgsz=640,
-        device='mps',
-        workers = 4,
+        device='cpu',
+        workers = 8,
         batch =4,
     )
 
