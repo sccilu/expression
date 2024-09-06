@@ -1,5 +1,9 @@
 import torch
 from ultralytics import YOLO
+import os
+import wandb
+os.environ['WANDB_DISABLE_LOGGING'] = '1'
+
 
 def train_model():
 
