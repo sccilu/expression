@@ -12,7 +12,7 @@ def train_model():
     model.train(
         # 从头开始训练
         data='data.yaml',
-        epochs=50,
+        epochs=100,
         imgsz=640,
         device=device,
         workers = 4,
