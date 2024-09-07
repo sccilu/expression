@@ -13,11 +13,11 @@ def train_model():
     model.train(
 	#从头开始训练
         data='data.yaml',
-        epochs=10,
+        epochs=50,
         imgsz=640,
         device='cpu',
         workers = 8,
-        batch =16,
+        batch =32,
     )
 
     # 进行模型验证s
