@@ -16,7 +16,7 @@ def train_model():
         imgsz=640,
         device=device,
         workers = 4,
-        batch =64,
+        batch =16,
     )
     # 进行模型验证
     model.val()
