@@ -16,7 +16,7 @@ def train_model():
         epochs=50,
         imgsz=640,
         device='cpu',
-        workers = 8,
+        workers = 4,
         batch =32,
     )
 
