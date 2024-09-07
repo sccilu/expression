@@ -17,7 +17,7 @@ def train_model():
         imgsz=640,
         device='cpu',
         workers = 4,
-        batch =32,
+        batch =64,
     )
 
     # 进行模型验证s
