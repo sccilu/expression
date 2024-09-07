@@ -2,12 +2,12 @@ train: ../data/train/images
 val: ../data/valid/images
 test: ../data/test/images
 
-nc: 6
-names: ['anger', 'fear', 'happy', 'neutral', 'sad', 'surprise']
+nc: 5
+names: ['anger', 'fear', 'happy', 'neutral', 'sad']
 
 roboflow:
-  workspace: workshop-yg2yt
-  project: expression-abyan
+  workspace: rabbani
+  project: pak-fikri-2
   version: 1
   license: CC BY 4.0
-  url: https://universe.roboflow.com/workshop-yg2yt/expression-abyan/dataset/1
+  url: https://universe.roboflow.com/rabbani/pak-fikri-2/dataset/1
